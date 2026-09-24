@@ -1,7 +1,16 @@
-# Zion Prompt Leak Scanner
+# Prompt Leak Scanner
 
-Paste prompts, agent configs or MCP configs — detect API keys, tokens, private keys, PII and internal hosts. 100% client-side.
+Find secrets and PII in prompts and configs before they leak into LLM calls.
 
 **Live app:** https://ziontechgroup.com/zion-prompt-leak-scanner/
 
-Part of the [Zion Tech Group](https://ziontechgroup.com) AI apps network. Sibling apps: [MCP Security Checklist](https://ziontechgroup.com/zion-mcp-security/) · [Prompt A/B Playground](https://ziontechgroup.com/zion-prompt-ab-playground/) · [Benchmark Explainer](https://ziontechgroup.com/zion-benchmark-explainer/)
+## Features
+- Scans prompts/configs for API keys, tokens, PII
+- Pre-commit hook integration
+- Redaction suggestions
+
+## Zion App Network
+Part of the [Zion App Network](https://ziontechgroup.com/apps/).
+Related: [Prompt Shield](https://github.com/Zion-support/prompt-shield) · [Prompt A/B Playground](https://github.com/Zion-support/zion-prompt-ab-playground) · [AI Prompt Engineer](https://github.com/Zion-support/ai-prompt-engineer) · [Data Anonymizer](https://github.com/Zion-support/zion-ai-data-anonymizer)
+
+© 2026 Zion Tech Group
